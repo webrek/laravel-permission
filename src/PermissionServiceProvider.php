@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission;
+namespace Webrek\Permission;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -11,9 +11,9 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Spatie\Permission\Contracts\Permission as PermissionContract;
-use Spatie\Permission\Contracts\Role as RoleContract;
-use Spatie\Permission\Listeners\OctaneReloadPermissions;
+use Webrek\Permission\Contracts\Permission as PermissionContract;
+use Webrek\Permission\Contracts\Role as RoleContract;
+use Webrek\Permission\Listeners\OctaneReloadPermissions;
 
 class PermissionServiceProvider extends ServiceProvider
 {

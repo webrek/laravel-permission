@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Tests\TestModels\User;
 
 class TeamHasRolesTest extends HasRolesTest
 {

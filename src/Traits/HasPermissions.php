@@ -1,21 +1,21 @@
 <?php
 
-namespace Spatie\Permission\Traits;
+namespace Webrek\Permission\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Contracts\Wildcard;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\Exceptions\WildcardPermissionInvalidArgument;
-use Spatie\Permission\Exceptions\WildcardPermissionNotImplementsContract;
-use Spatie\Permission\Guard;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\WildcardPermission;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Contracts\Wildcard;
+use Webrek\Permission\Exceptions\GuardDoesNotMatch;
+use Webrek\Permission\Exceptions\PermissionDoesNotExist;
+use Webrek\Permission\Exceptions\WildcardPermissionInvalidArgument;
+use Webrek\Permission\Exceptions\WildcardPermissionNotImplementsContract;
+use Webrek\Permission\Guard;
+use Webrek\Permission\PermissionRegistrar;
+use Webrek\Permission\WildcardPermission;
 
 trait HasPermissions
 {

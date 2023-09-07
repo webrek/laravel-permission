@@ -28,6 +28,6 @@ if (! function_exists('getPermissionsTeamId')) {
      */
     function getPermissionsTeamId()
     {
-        return app(\Spatie\Permission\PermissionRegistrar::class)->getPermissionsTeamId();
+        return app(\Webrek\Permission\PermissionRegistrar::class)->getPermissionsTeamId();
     }
 }

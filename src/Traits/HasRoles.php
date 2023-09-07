@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission\Traits;
+namespace Webrek\Permission\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\PermissionRegistrar;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\PermissionRegistrar;
 
 trait HasRoles
 {

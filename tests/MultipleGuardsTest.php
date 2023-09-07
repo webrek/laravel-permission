@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Tests\TestModels\Manager;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Tests\TestModels\Manager;
 
 class MultipleGuardsTest extends TestCase
 {

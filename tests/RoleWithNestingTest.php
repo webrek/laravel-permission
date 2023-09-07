@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Tests\TestModels\Role;
+use Webrek\Permission\Tests\TestModels\Role;
 
 class RoleWithNestingTest extends TestCase
 {

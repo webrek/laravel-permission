@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\Exceptions\RoleAlreadyExists;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
-use Spatie\Permission\Models\Permission;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\Tests\TestModels\Admin;
-use Spatie\Permission\Tests\TestModels\RuntimeRole;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Exceptions\GuardDoesNotMatch;
+use Webrek\Permission\Exceptions\PermissionDoesNotExist;
+use Webrek\Permission\Exceptions\RoleAlreadyExists;
+use Webrek\Permission\Exceptions\RoleDoesNotExist;
+use Webrek\Permission\Models\Permission;
+use Webrek\Permission\PermissionRegistrar;
+use Webrek\Permission\Tests\TestModels\Admin;
+use Webrek\Permission\Tests\TestModels\RuntimeRole;
+use Webrek\Permission\Tests\TestModels\User;
 
 class RoleTest extends TestCase
 {

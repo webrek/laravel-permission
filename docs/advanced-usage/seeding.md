@@ -22,8 +22,8 @@ Here is a sample seeder, which first clears the cache, creates permissions and t
 
 ```php
 use Illuminate\Database\Seeder;
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
+use Webrek\Permission\Models\Role;
+use Webrek\Permission\Models\Permission;
 
 class RolesAndPermissionsSeeder extends Seeder
 {

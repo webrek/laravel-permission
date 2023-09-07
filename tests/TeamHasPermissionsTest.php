@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Tests\TestModels\User;
 
 class TeamHasPermissionsTest extends HasPermissionsTest
 {

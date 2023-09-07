@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Support\Facades\Artisan;
-use Spatie\Permission\Contracts\Role;
+use Webrek\Permission\Contracts\Role;
 
 class BladeTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Support\Facades\Artisan;
-use Spatie\Permission\Models\Permission;
-use Spatie\Permission\Models\Role;
+use Webrek\Permission\Models\Permission;
+use Webrek\Permission\Models\Role;
 
 class CommandTest extends TestCase
 {

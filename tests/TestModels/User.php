@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Tests\TestModels;
+namespace Webrek\Permission\Tests\TestModels;
 
-use Spatie\Permission\Traits\HasRoles;
+use Webrek\Permission\Traits\HasRoles;
 
 class User extends UserWithoutHasRoles
 {

@@ -55,9 +55,9 @@ git add . && git commit -m "Setup auth scaffold"
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Spatie\Permission\Models\Permission;
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\PermissionRegistrar;
+use Webrek\Permission\Models\Permission;
+use Webrek\Permission\Models\Role;
+use Webrek\Permission\PermissionRegistrar;
 
 class PermissionsDemoSeeder extends Seeder
 {

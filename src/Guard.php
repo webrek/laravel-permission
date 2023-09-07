@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission;
+namespace Webrek\Permission;
 
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Database\Eloquent\Model;

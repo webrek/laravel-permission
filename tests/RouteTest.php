@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 class RouteTest extends TestCase
 {

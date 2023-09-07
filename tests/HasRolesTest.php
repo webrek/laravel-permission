@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Support\Facades\DB;
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
-use Spatie\Permission\Tests\TestModels\Admin;
-use Spatie\Permission\Tests\TestModels\SoftDeletingUser;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Exceptions\GuardDoesNotMatch;
+use Webrek\Permission\Exceptions\RoleDoesNotExist;
+use Webrek\Permission\Tests\TestModels\Admin;
+use Webrek\Permission\Tests\TestModels\SoftDeletingUser;
+use Webrek\Permission\Tests\TestModels\User;
 
 class HasRolesTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Tests\TestModels;
+namespace Webrek\Permission\Tests\TestModels;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 

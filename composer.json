@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-permission",
+    "name": "webrek/laravel-permission",
     "description": "Permission handling for Laravel 8.0 and up",
     "license": "MIT",
     "keywords": [
@@ -10,23 +10,31 @@
         "roles",
         "acl",
         "rbac",
-        "security"
+        "security",
+        "mongodb"
     ],
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Main Developer"
+        },
+        {
+            "name": "Arturo Hernandez",
+            "email": "webrek@me.com",
+            "homepage": "https://github.com/webrek",
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/spatie/laravel-permission",
+    "homepage": "https://github.com/webrek/laravel-permission",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "illuminate/auth": "^8.12|^9.0|^10.0",
         "illuminate/container": "^8.12|^9.0|^10.0",
         "illuminate/contracts": "^8.12|^9.0|^10.0",
-        "illuminate/database": "^8.12|^9.0|^10.0"
+        "illuminate/database": "^8.12|^9.0|^10.0",
+        "mongodb/laravel-mongodb": "^4.0@alpha"
     },
     "require-dev": {
         "laravel/passport": "^11.0",
@@ -37,7 +45,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Spatie\\Permission\\": "src"
+            "Webrek\\Permission\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -45,7 +53,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Permission\\Tests\\": "tests"
+            "Webrek\\Permission\\Tests\\": "tests"
         }
     },
     "config": {
@@ -58,7 +66,7 @@
         },
         "laravel": {
             "providers": [
-                "Spatie\\Permission\\PermissionServiceProvider"
+                "Webrek\\Permission\\PermissionServiceProvider"
             ]
         }
     },

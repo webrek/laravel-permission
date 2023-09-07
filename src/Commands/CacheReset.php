@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Permission\Commands;
+namespace Webrek\Permission\Commands;
 
 use Illuminate\Console\Command;
-use Spatie\Permission\PermissionRegistrar;
+use Webrek\Permission\PermissionRegistrar;
 
 class CacheReset extends Command
 {

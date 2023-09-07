@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Models\Permission;
+use Webrek\Permission\Models\Permission;
 
 class WildcardRoleTest extends TestCase
 {

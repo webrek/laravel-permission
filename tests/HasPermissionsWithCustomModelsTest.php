@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\Tests\TestModels\Admin;
-use Spatie\Permission\Tests\TestModels\Permission;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\PermissionRegistrar;
+use Webrek\Permission\Tests\TestModels\Admin;
+use Webrek\Permission\Tests\TestModels\Permission;
+use Webrek\Permission\Tests\TestModels\User;
 
 class HasPermissionsWithCustomModelsTest extends HasPermissionsTest
 {

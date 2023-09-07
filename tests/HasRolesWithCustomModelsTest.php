@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
-use Spatie\Permission\Tests\TestModels\Admin;
-use Spatie\Permission\Tests\TestModels\Role;
+use Webrek\Permission\Tests\TestModels\Admin;
+use Webrek\Permission\Tests\TestModels\Role;
 
 class HasRolesWithCustomModelsTest extends HasRolesTest
 {

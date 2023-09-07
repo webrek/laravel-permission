@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Gate;
 use InvalidArgumentException;
 use Laravel\Passport\Passport;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Exceptions\UnauthorizedException;
-use Spatie\Permission\Middlewares\PermissionMiddleware;
-use Spatie\Permission\Tests\TestModels\UserWithoutHasRoles;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Exceptions\UnauthorizedException;
+use Webrek\Permission\Middlewares\PermissionMiddleware;
+use Webrek\Permission\Tests\TestModels\UserWithoutHasRoles;
 
 class PermissionMiddlewareTest extends TestCase
 {

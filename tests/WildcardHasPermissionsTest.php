@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\Exceptions\WildcardPermissionInvalidArgument;
-use Spatie\Permission\Exceptions\WildcardPermissionNotProperlyFormatted;
-use Spatie\Permission\Models\Permission;
-use Spatie\Permission\Tests\TestModels\User;
-use Spatie\Permission\Tests\TestModels\WildcardPermission;
+use Webrek\Permission\Exceptions\PermissionDoesNotExist;
+use Webrek\Permission\Exceptions\WildcardPermissionInvalidArgument;
+use Webrek\Permission\Exceptions\WildcardPermissionNotProperlyFormatted;
+use Webrek\Permission\Models\Permission;
+use Webrek\Permission\Tests\TestModels\User;
+use Webrek\Permission\Tests\TestModels\WildcardPermission;
 
 class WildcardHasPermissionsTest extends TestCase
 {

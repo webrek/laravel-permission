@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Traits;
+namespace Webrek\Permission\Traits;
 
-use Spatie\Permission\PermissionRegistrar;
+use Webrek\Permission\PermissionRegistrar;
 
 trait RefreshesPermissionCache
 {

@@ -8,7 +8,7 @@ First, add the `Spatie\Permission\Traits\HasRoles` trait to your `User` model(s)
 
 ```php
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Spatie\Permission\Traits\HasRoles;
+use Webrek\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
@@ -23,8 +23,8 @@ This package allows for users to be associated with permissions and roles. Every
 A `Role` and a `Permission` are regular Eloquent models. They require a `name` and can be created like this:
 
 ```php
-use Spatie\Permission\Models\Role;
-use Spatie\Permission\Models\Permission;
+use Webrek\Permission\Models\Role;
+use Webrek\Permission\Models\Permission;
 
 $role = Role::create(['name' => 'writer']);
 $permission = Permission::create(['name' => 'edit articles']);

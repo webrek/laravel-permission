@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Permission\Listeners;
+namespace Webrek\Permission\Listeners;
 
-use Spatie\Permission\PermissionRegistrar;
+use Webrek\Permission\PermissionRegistrar;
 
 class OctaneReloadPermissions
 {

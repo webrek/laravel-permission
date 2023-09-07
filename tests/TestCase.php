@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Http\Request;
@@ -10,14 +10,14 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 use Laravel\Passport\PassportServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Exceptions\UnauthorizedException;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\PermissionServiceProvider;
-use Spatie\Permission\Tests\TestModels\Admin;
-use Spatie\Permission\Tests\TestModels\Client;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Exceptions\UnauthorizedException;
+use Webrek\Permission\PermissionRegistrar;
+use Webrek\Permission\PermissionServiceProvider;
+use Webrek\Permission\Tests\TestModels\Admin;
+use Webrek\Permission\Tests\TestModels\Client;
+use Webrek\Permission\Tests\TestModels\User;
 
 abstract class TestCase extends Orchestra
 {

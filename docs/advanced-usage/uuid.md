@@ -111,7 +111,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Spatie\Permission\Models\Role as SpatieRole;
+use Webrek\Permission\Models\Role as SpatieRole;
 
 class Role extends SpatieRole
 {
@@ -128,7 +128,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Spatie\Permission\Models\Permission as SpatiePermission;
+use Webrek\Permission\Models\Permission as SpatiePermission;
 
 class Permission extends SpatiePermission
 {

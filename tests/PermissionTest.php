@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Exceptions\PermissionAlreadyExists;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Exceptions\PermissionAlreadyExists;
+use Webrek\Permission\Tests\TestModels\User;
 
 class PermissionTest extends TestCase
 {

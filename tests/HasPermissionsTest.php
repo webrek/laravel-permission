@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use DB;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Exceptions\GuardDoesNotMatch;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\Tests\TestModels\SoftDeletingUser;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Exceptions\GuardDoesNotMatch;
+use Webrek\Permission\Exceptions\PermissionDoesNotExist;
+use Webrek\Permission\Tests\TestModels\SoftDeletingUser;
+use Webrek\Permission\Tests\TestModels\User;
 
 class HasPermissionsTest extends TestCase
 {

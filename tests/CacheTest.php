@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\Permission\Tests;
+namespace Webrek\Permission\Tests;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
-use Spatie\Permission\Contracts\Permission;
-use Spatie\Permission\Contracts\Role;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\Tests\TestModels\User;
+use Webrek\Permission\Contracts\Permission;
+use Webrek\Permission\Contracts\Role;
+use Webrek\Permission\Exceptions\PermissionDoesNotExist;
+use Webrek\Permission\PermissionRegistrar;
+use Webrek\Permission\Tests\TestModels\User;
 
 class CacheTest extends TestCase
 {

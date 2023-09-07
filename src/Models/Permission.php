@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\Permission\Models;
+namespace Webrek\Permission\Models;
 
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Spatie\Permission\Contracts\Permission as PermissionContract;
-use Spatie\Permission\Exceptions\PermissionAlreadyExists;
-use Spatie\Permission\Exceptions\PermissionDoesNotExist;
-use Spatie\Permission\Guard;
-use Spatie\Permission\PermissionRegistrar;
-use Spatie\Permission\Traits\HasRoles;
-use Spatie\Permission\Traits\RefreshesPermissionCache;
+use MongoDB\Laravel\Eloquent\Model;
+use MongoDB\Laravel\Relations\BelongsToMany;
+use MongoDB\Laravel\Collection;
+use Webrek\Permission\Contracts\Permission as PermissionContract;
+use Webrek\Permission\Exceptions\PermissionAlreadyExists;
+use Webrek\Permission\Exceptions\PermissionDoesNotExist;
+use Webrek\Permission\Guard;
+use Webrek\Permission\PermissionRegistrar;
+use Webrek\Permission\Traits\HasRoles;
+use Webrek\Permission\Traits\RefreshesPermissionCache;
 
 /**
  * @property ?\Illuminate\Support\Carbon $created_at
