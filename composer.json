@@ -34,7 +34,7 @@
         "illuminate/container": "^8.12|^9.0|^10.0",
         "illuminate/contracts": "^8.12|^9.0|^10.0",
         "illuminate/database": "^8.12|^9.0|^10.0",
-        "mongodb/laravel-mongodb": "^4.0@alpha"
+        "mongodb/laravel-mongodb": "^3.9"
     },
     "require-dev": {
         "laravel/passport": "^11.0",
